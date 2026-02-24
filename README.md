@@ -4,8 +4,6 @@ https://vamsi-rag-chatbot-01.streamlit.app/
 Steeps for deploying on local
 1.create evfile as below
 
-
-OPENAI_API_KEY=<open ai api key>
 HF_TOKEN_ONE=<Hugging face token>
 BASE_URL=https://router.huggingface.co/v1
 MODEL_NAME=meta-llama/Llama-3.1-8B-Instruct
@@ -26,7 +24,7 @@ stramlit run app.py
 Projec Details:
 Simple RAG chatbot.
 1. Upload PDF doc by user
-2. Read text from the PDF
+2. Read text from the PDF (Fails with scanned PDFs, protected)
 3. Chunk the Text
 4. Embedd the Text
 5. store in vector db
