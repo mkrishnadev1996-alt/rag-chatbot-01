@@ -1,3 +1,7 @@
+Live app can be found at URL 
+https://vamsi-rag-chatbot-01.streamlit.app/
+
+Steeps for deploying on local
 1.create evfile as below
 
 
